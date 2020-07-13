@@ -6,7 +6,7 @@ import { runTest } from './test';
 function App() {
   return (
     <div className="App">
-      <input type="button" onClick={runTest} value="initialise test" />
+      <input type="button" onClick={runTest} value="Initialise test" />
     </div>
   );
 }
