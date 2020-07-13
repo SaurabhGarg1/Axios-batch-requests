@@ -9,7 +9,7 @@ open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Upon launch, click `Initialise test`. 
 
-It will three requests from to the backend which will be intercepted by `interceptor.js` and then after 5 seconds a single requests will be triggered to backend with all the unique params of all three request.
+It will trigger three requests from to the backend which will be intercepted by `interceptor.js` and then after 5 seconds a single requests will be triggered to backend with all the unique params of all three request.
 
 Upon receiving response, three apis will print the response on the console.
 
